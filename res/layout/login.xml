@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/logo_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="340dp"
+        android:layout_height="236dp"
+        android:layout_gravity="center" >
+
+        <ImageButton 
+            android:id="@+id/img_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/quit"/>
+
+        <TextView
+            android:id="@+id/tv_zh"
+            android:layout_width="wrap_content"
+            android:layout_height="35dip"
+            android:layout_marginLeft="12dip"
+            android:layout_marginTop="10dip"
+            android:gravity="bottom"
+            android:text="帐号:"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et_zh"
+            android:layout_width="250dp"
+            android:layout_height="40dip"
+            android:layout_below="@id/tv_zh"
+            android:layout_marginLeft="12dip"
+            android:layout_marginRight="10dip" />
+
+        <TextView
+            android:id="@+id/tv_mima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_zh"
+            android:layout_marginLeft="12dip"
+            android:layout_marginTop="5dip"
+            android:gravity="bottom"
+            android:text="密码:"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et_mima"
+            android:layout_width="250dp"
+            android:layout_height="40dip"
+            android:layout_below="@id/tv_mima"
+            android:layout_marginLeft="12dip"
+            android:layout_marginRight="10dip"
+            android:maxLines="200"
+            android:password="true"
+            android:scrollHorizontally="true" />
+
+        <CheckBox
+            android:id="@+id/cb_mima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_mima"
+            android:layout_marginLeft="12dip"
+            android:text="记住密码"
+            android:textColor="#000000" />
+
+        <CheckBox
+            android:id="@+id/cb_auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/cb_mima"
+            android:layout_alignBottom="@+id/cb_mima"
+            android:layout_toRightOf="@+id/cb_mima"
+            android:text="自动登录"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="80dip"
+            android:layout_height="40dip"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/spinner1"
+            android:gravity="center"
+            android:text="登录"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/spinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/et_zh"
+            android:layout_alignBottom="@+id/et_zh"
+            android:layout_toRightOf="@+id/et_zh"
+            android:text="..." />
+        
+    </RelativeLayout>
+    
+    
+
+</LinearLayout>

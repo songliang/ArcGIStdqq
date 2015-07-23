@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="dbName">ArcGisT.db</string>
+  <string name="rtk">rtk</string>
+  <string name="mappath">mapPath</string>
+  <string name="UserLoginCvs">Userinfo</string>
+    <string name="userCvs">UserCvs</string>
+    <string name="PointCvs">PointCvs</string>
+     <string name="JieZhiPoint">JieZhiPoint</string>
+     <string name="JieZhi">JieZhi</string>
+    <string name="DefaultFloderPath">LandSurvey</string>
+    <string name="DefaultImageFloder">img</string>
+    <string name="Serial">uuid</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/crosspositon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设备号："
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/deviceNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:imeOptions="actionNext"
+            android:inputType="text" >
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="序列号:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/serial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:imeOptions="actionDone"
+            android:inputType="text" >
+            <requestFocus />
+        </EditText>
+    </TableRow>
+
+</TableLayout>

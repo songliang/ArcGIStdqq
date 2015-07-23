@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+   <!-- MapView layout and initial extent -->
+    <com.esri.android.map.MapView
+  		android:id="@+id/map"
+  		android:layout_width="fill_parent"
+  		android:layout_height="fill_parent">
+  	</com.esri.android.map.MapView>
+   
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="left"
+	    android:orientation="vertical" >
+
+		<Button
+		    android:id="@+id/cross"
+		    android:layout_width="48dp"
+		    android:layout_height="48dp"
+		    android:layout_marginLeft="13dp"
+		    android:layout_marginTop="4dp"
+		    android:background="@drawable/cross_72" />
+		
+		<Button
+		    android:id="@+id/clearbutton"
+		    android:layout_width="64dp"
+		    android:layout_height="64dp"
+		    android:layout_marginLeft="8dp"
+		    android:layout_marginTop="4dp"
+		    android:background="@drawable/clear_72" />
+		
+		<Button
+		    android:id="@+id/zoomin"
+		    android:layout_width="64dp"
+		    android:layout_height="64dp"
+		    android:layout_marginLeft="8dp"
+		    android:layout_marginTop="4dp"
+		    android:background="@drawable/zoomin_72" />
+		
+		<Button
+		    android:id="@+id/zoomout"
+		    android:layout_width="64dp"
+		    android:layout_height="64dp"
+		    android:layout_marginLeft="8dp"
+		    android:layout_marginTop="4dp"
+		    android:background="@drawable/zoomout_72" />
+		
+		<Button
+		    android:id="@+id/GPS"
+		    android:layout_width="64dp"
+		    android:layout_height="64dp"
+		    android:layout_marginLeft="5dp"
+		    android:layout_marginTop="4dp"
+		    android:background="@drawable/locationoff_72" />
+	
+    </LinearLayout>
+    
+     <View
+         android:id="@+id/cross1"
+         android:layout_width="2dip"
+         android:layout_height="20dip"
+         android:layout_gravity="center" 
+         android:background="#0000C6"
+     />
+     <View
+         android:id="@+id/cross2"
+         android:layout_width="20dip"
+         android:layout_height="2dip"
+         android:layout_gravity="center" 
+         android:background="#0000C6"
+      />
+
+     <Button
+         android:id="@+id/gCenter"
+         android:layout_width="64dp"
+         android:layout_height="64dp"
+         android:layout_gravity="bottom|left"
+         android:layout_marginBottom="2dp"
+         android:layout_marginLeft="8dp"
+         android:background="@drawable/compass_72" />
+
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="top|right"
+         android:orientation="horizontal" >
+
+         <RadioGroup
+             android:id="@+id/radioGroup1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal" >
+
+             <RadioButton
+                 android:id="@+id/landpointradio"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:checked="true"
+                 android:text="地块点" />
+
+             <RadioButton
+                 android:id="@+id/boundarypointradio"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="界址点" />
+
+             <RadioButton
+                 android:id="@+id/measurelengthradio"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="测距" />
+
+             <RadioButton
+                 android:id="@+id/measurearearadio"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="测面积" />
+
+             <RadioButton
+                 android:id="@+id/selectradio"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="选取" />
+
+             <RadioButton
+                 android:id="@+id/lineradio"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="连线" />
+         </RadioGroup>
+     </LinearLayout>
+
+     <TextView
+         android:id="@+id/crosspositon"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="bottom|right"
+         android:layout_marginBottom="4dp"
+         android:layout_marginRight="8dp"
+         android:background="@drawable/txtbackground"
+         android:text="TextView" />
+   
+</FrameLayout>

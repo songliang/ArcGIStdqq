@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="姓名："
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:id="@+id/Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="手动输入或选择"
+                android:imeOptions="actionNext"
+                android:inputType="text" >
+
+                <requestFocus />
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="身份证号："
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:id="@+id/IDNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:imeOptions="actionNext"
+                android:inputType="text" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="地块号："
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:id="@+id/GroundNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="true"
+                android:ems="10"
+                android:imeOptions="actionNext"
+                android:inputType="text" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="户号："
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:id="@+id/HName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:imeOptions="actionNext"
+                android:inputType="text" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="合同面积"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:id="@+id/GSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:imeOptions="actionNext"
+                android:inputType="text" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="备注："
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:id="@+id/OtherInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="text" />
+        </TableRow>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/positiveButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/ok" />
+
+            <Button
+                android:id="@+id/negativeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/cancel" />
+        </LinearLayout>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:alwaysDrawnWithCache="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/choseButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="..." />
+
+        <Button
+            android:id="@+id/AddUserInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="保存户主信息" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/caram"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/Pic"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:maxHeight="200dp"
+            android:maxWidth="200dp"
+            android:src="@android:drawable/ic_menu_add" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beizhu"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+</LinearLayout>

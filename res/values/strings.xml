@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   	<string name="hello">Welcome</string>
+   	     <string name="name">LandSurvey</string>
+    <string name="app_name">LandSurvey</string>
+    <string name="mode">SelectMode</string>
+    <string name="Clear">Cancel</string>
+    <string name="Cross">Cross</string>
+    <string name="Save">Save</string>
+    <string name="openMap">Open Map</string>
+    <string name="help">Help</string>
+    <string name="quit">Quit</string>
+    <string name="readdata">Read Record</string>
+    <string name="SelectGeo">Read Record</string>
+    <string name="Polygon">Polygon</string>
+    <string name="Polyline">Polyline</string>
+    <string name="Point">Point</string>
+    <string name="Select">Selected.</string>
+     <string name="SelectPGON">Select polygon</string>
+      <string name="SelectPLine">Select polyline</string>
+       <string name="SelectP">Select point</string>
+       <string name="cancel">Cancel</string>
+       <string name="ok">Save</string>
+       <string name="caram">Pic</string>
+       <string name="beizhu">Info:double tap to take pic or one tap to see the large pic</string>
+       <string name="notice">Notice</string>
+       <string name="zoomin">zoomin</string>
+       <string name="zoomout">zoomout</string>
+       <string name="GPSoff">OFF</string>
+       <string name="GPSon">ON</string>
+       <string name="gCenter">Center</string>       
+        <string name="delete">Dele</string>
+        <string name="modify">Edit</string>
+        <string name="cpw_name">Ground</string>
+        <string name="cpw_ID">ID:4</string>
+       <string name="history">History</string>
+       <string name="importhistory">Import History</string>
+       <string name="dataClear">Clear Data</string>
+       <string name="OutPutData">Export Data</string>
+    </resources>

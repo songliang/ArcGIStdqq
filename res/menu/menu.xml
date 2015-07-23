@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/history" android:title="@string/history"></item>
+    <item android:id="@+id/importhistory" android:title="@string/importhistory"></item>
+    <!-- <item android:id="@+id/help" android:title="@string/help"></item> -->
+      <item android:id="@+id/exportData" android:title="@string/OutPutData"></item>
+    <item android:id="@+id/dataClear" android:title="@string/dataClear"></item>
+</menu>

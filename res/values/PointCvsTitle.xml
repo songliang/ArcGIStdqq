@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 用于存储内容制作表头；最后一个如果不标记，标明可以用；如果标记为1，则表明是删除的数据； -->
+<resources>
+    <string-array name="PointCvsTitle">
+        <item >要素ID</item>
+        <item >姓名</item>
+        <item >身份证号</item>
+        <item >户号</item>
+        <item >地块号</item>
+        <item >面积</item>
+        <item >备注</item>
+        <item >经度</item>
+        <item >纬度</item>　
+        <item >关联相片编号</item>    
+    </string-array>
+       <string-array name="JieZhiPoint">
+        <item >要素ID</item>
+        <item >经度</item>
+        <item >纬度</item>
+        <item >关联RTK测点号</item>
+        <item >备注</item>      
+    </string-array>
+    <string-array name="JieZhi">
+        <item >要素ID</item>
+        <item >起点要素ID</item>
+        <item >重点要素ID</item>
+    </string-array>
+</resources>
